@@ -4,9 +4,9 @@ import logging
 from datetime import datetime
 from pyrogram import Client, filters, enums
 
-api_id = "21779523"
-api_hash = "9d6e384ed946c9dede1cbc6e3c57f78e"
-bot_token = "6009572625:AAHH8et8wQPuGiiIHBeOMeofvL0csq5wZXU"
+api_id = "no"
+api_hash = "no"
+bot_token = "no"
 app = Client("emoji", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 logging.basicConfig(filename="bot_log.txt", level=logging.INFO,
